@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stephany está me enrolando</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+
+<style>
+    
+
+</style>
+
+<body>
+<div class="container" style="text-align: center;">
+<div class="col-md-12 mb-5" style="padding-top: 300px;">
+    <h3>A Stephany (Ste/Teté) está de safadeza?</h3>
+</div>
+<button class="btn btn-primary" id="si">
+    Sim
+</button>
+<button class="btn btn-danger m-3" id="no">Não</button>
+</div>
+
+
+</body>
+<script>
+
+let button = document.getElementById('no');
+let height = window.innerHeight - 50;
+let width = window.innerWidth - 50;
+
+button.addEventListener('mouseover', function () {
+button.style.position = "absolute";
+button.style.top = Math.random() * height + "px";
+button.style.left = Math.random() * width + "px";
+})
+
+let buttonYes = document.getElementById('si');
+
+buttonYes.addEventListener('click', function () {
+window.alert('Obrigado por assumir, concordamos 👍')
+})
+
+</script>
+</html>
