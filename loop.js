@@ -11,5 +11,5 @@ button.style.left = Math.random() * width + "px";
 let buttonYes = document.getElementById('si');
 
 buttonYes.addEventListener('click', function () {
-window.alert('Obrigado por assumir, concordamos 👍')
+window.alert('Obrigado, vou te fazer gozar como agradecimento 👍')
 })
